@@ -8,5 +8,9 @@
 </main>
 
 <style lang="scss">
+    @import "src/theme";
+    .body {
+        background: $background;
+    }
 
 </style>
