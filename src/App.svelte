@@ -1,4 +1,5 @@
 <script lang="ts">
+    import "carbon-components-svelte/css/g90.css";
 
     import Test from "./components/Test/file.svelte";
 </script>
@@ -8,9 +9,6 @@
 </main>
 
 <style lang="scss">
-    @import "src/theme";
-    .body {
-        background: $background;
-    }
+
 
 </style>
